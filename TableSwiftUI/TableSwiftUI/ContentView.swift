@@ -28,7 +28,7 @@ let data = [
 
 
 struct ContentView: View {
-    @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 30.295190, longitude: -97.726220), span: MKCoordinateSpan(latitudeDelta: 0.07, longitudeDelta: 0.07))
+    @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 29.883670486029928, longitude: -97.93978417544676), span: MKCoordinateSpan(latitudeDelta: 1.05, longitudeDelta: 1))
     var body: some View {
         
         
